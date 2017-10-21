@@ -12,7 +12,7 @@ m1=Lestrigones;
 m2=Godizika;
 m3=Ness;
 */
-printf("Bem vindo!Esse eh o mundo imaginario. Seu herÛi vive em no vilarejo alfa e ir· para o castelo do demonio %s.\n"), m3;
+printf("Bem vindo!Esse eh o mundo imaginario. Seu her√≥i vive em no vilarejo alfa e ir√° para o castelo do demonio %s.\n"), m3;
 printf("Entre com o nome do seu personagem.\n");
 
 scanf("%s", &nome);
