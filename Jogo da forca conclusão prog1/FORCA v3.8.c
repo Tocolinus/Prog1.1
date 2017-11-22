@@ -1,3 +1,14 @@
+/*
+Trabalho do jogo da forca
+Programa√ß√£o 1 - Professor: Alex
+
+Grupo:
+William Vargas
+David Gagliano
+Camylla de Souza
+Glaucia Loureiro
+*/
+
 #include <stdio.h>
 #include <string.h>
 #include <conio.h>
@@ -6,7 +17,7 @@
 #include <stdio.h>
 #include <math.h>
 #include <unistd.h>
-#include <locale.h> //necess·rio para usar setlocale.
+#include <locale.h> //necess√°rio para usar setlocale.
 
 
 
@@ -24,10 +35,10 @@ int iDecisaoMenu;
 
 
 
-printf("",setlocale(LC_ALL,"")); //Para definir a lingua, mas n„o sei usar.
+printf("",setlocale(LC_ALL,"")); //Para definir a lingua, mas n√£o sei usar.
 system("title Jogo da forca");//Comando para colocar o titulo no exe
 
-//_______________________________________________INTRODU«√O-CARREGAMENTO__________________________________
+//_______________________________________________INTRODU√á√ÉO-CARREGAMENTO__________________________________
 
 system("cls");
 printf("\t\t\t\tCarregando.");
@@ -43,7 +54,7 @@ printf("\a");
 sleep(1);
 system("cls");
 
-//_______________________________________________INTRODU«√O-CARREGAMENTO__________________________________
+//_______________________________________________INTRODU√á√ÉO-CARREGAMENTO__________________________________
 //____________________________________________________TITULO______________________________________________
 
 
@@ -75,9 +86,9 @@ MENUPRINCIPAL:
 	printf("\a");
 	system("cls");
 printf("Jogo da forca \n\n\n");
-printf("1-ComeÁar jogo\n");
-printf("2-ConfiguraÁıes\n");
-printf("3-CrÈditos\n");
+printf("1-Come√ßar jogo\n");
+printf("2-Configura√ß√µes\n");
+printf("3-Cr√©ditos\n");
 printf("4-Sair\n");
 scanf("%d", &iDecisaoMenu);
 printf("\a");
@@ -89,7 +100,7 @@ else if (iDecisaoMenu == 4)  exit(1);
 //__________________________________________________MENU__________________________________________________
 //____________________________________________________SUBMENU_____________________________________________
 
-CONFIGURACOES: printf("\n\n\t\tDificuldade: F·cil\n\n");
+CONFIGURACOES: printf("\n\n\t\tDificuldade: F√°cil\n\n");
 system("pause");
 goto MENUPRINCIPAL;
 CREDITOS: printf("\n\nCriador: \nDavid Gagliano\nWilliam Vargas\nGlaucia Loureiro\nCamylla de Souza\n\n");
@@ -739,7 +750,7 @@ printf("|||||||||||||   ||                 ||   |||||||||||||    |||||||||||    
 printf("||         ||    ||               ||    ||               ||         ||   \n");
 printf("||         ||     ||             ||     ||               ||         ||   \n"); 
 printf("||         ||      ||           ||      ||               ||         ||   \n");            
-printf("||	   ||       ||         ||       |||||||||||||    |||||||||||     \n");//Ta errado aqui, mas ta certo no exe (n„o sei oq houve) 
+printf("||	   ||       ||         ||       |||||||||||||    |||||||||||     \n");//Ta errado aqui, mas ta certo no exe (n√£o sei oq houve) 
 printf("||         ||        ||       ||        ||               ||    ||        \n"); 
 printf("||         ||         ||     ||         ||               ||     ||       \n"); 
 printf("||         ||          ||   ||          ||               ||      ||      \n");   
